@@ -12,7 +12,6 @@
 
 | 仓库 | 说明 |
 | :--- | :--- |
-| **artex-dev** | AI 辅助渗透测试平台(私有仓库) |
 | **HTB-Writeups** | HTB 靶机通关记录 |
 | **ai-skill** | 渗透测试技能库 |
 | **claude-memory** | 跨机器 Claude 记忆库 |
