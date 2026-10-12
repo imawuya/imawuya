@@ -2,69 +2,40 @@
 
 # imawuya
 
-**Offensive Security** · **Attack Surface Management** · **Agentic Automation**
-
-*Recon at scale. Break it on purpose. Automate the rest.*
+渗透测试 · 攻击面管理 · Python / Go
 
 </div>
 
 ---
 
-## What I do
+## 项目
 
-I work the offensive pipeline end to end — attack surface discovery, triage, and
-controlled exploitation — and spend most of it **building the tooling** rather than
-clicking through it. Async recon pipelines, asset correlation, and LLM agents that
-absorb the repetitive work so a human only shows up where the decision actually matters.
-
----
-
-## Featured work
-
-### ARTEX — Autonomous Pentesting Platform
-
-`Go` · `Next.js` · `Docker`
-
-An AI-driven pentest platform that runs the **recon → explore → exploit** loop with
-human-in-the-loop control at every destructive step.
-
-- **Scope ingestion** straight from ScopeSentry — domains, subdomains, IPs, ports, sites, endpoints
-- **Coverage graph** (force-directed): tested nodes highlighted, collapsible, click-through to findings
-- **Approval gate** on every destructive action — the agent proposes, a human authorizes, everything is logged
-- Full **traffic recording** and per-task session replay
-- Internal-network mode: external foothold → pivot → lateral depth
-
-<sub>Private repository. Architecture, screenshots and design notes available on request.</sub>
-
-<br>
-
-### Skill kit & field notes
-
-| Project | What it is |
+| 仓库 | 说明 |
 | :--- | :--- |
-| **ai-skill** | Pentest skill kit — 45 skills + 2 agent presets, packaged for agent-driven workflows |
-| **HTB-Writeups** | Hack The Box writeups — recon, foothold, privesc, the whole chain |
-| **claude-memory** | Cross-machine memory layer that keeps long-running agent context consistent |
+| **artex-dev** | AI 辅助渗透测试平台(私有仓库) |
+| **HTB-Writeups** | HTB 靶机通关记录 |
+| **ai-skill** | 渗透测试技能库 |
+| **claude-memory** | 跨机器 Claude 记忆库 |
 
 ---
 
-## Toolbox
+## 工具
 
-**Languages**
+**语言**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-**Infrastructure**
+**环境**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**Offensive**
+**安全**
 
 ![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
@@ -75,5 +46,5 @@ human-in-the-loop control at every destructive step.
 ---
 
 <div align="center">
-<sub>Building tools I'd actually want to use. Mostly at night.</sub>
+<sub>Building tools I'd actually want to use.</sub>
 </div>
